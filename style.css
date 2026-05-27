@@ -109,15 +109,17 @@ body{
     padding: 10px;
   }
   .regular{
-      width: 38%;
+      width: 35%;
       background:#f7e4b5;
-      padding:15px;
+      padding:20px;
+    margin: 0;
     }
 
     .advanced{
-      width: 38%;
+      width: 35%;
       background:#6ce7f5;
-      padding:15px;
+      padding:20px;
+      margin:0;
     }
     h1{
       text-align:center;
