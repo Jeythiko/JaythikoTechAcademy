@@ -95,7 +95,7 @@ body{
       border-radius:20px;
       overflow: hidden;
       margin: auto;
-      width: 454px;
+      width: 400px;
   
       
   }
@@ -107,15 +107,15 @@ body{
     text-align: center;
   }
   .regular{
-      width: 50%;
+      width: 35%;
       background:#f7e4b5;
-      padding:30px;
+      padding:20px;
     }
 
     .advanced{
-      width: 50%;
+      width: 35%;
       background:#6ce7f5;
-      padding:30px;
+      padding:20px;
     }
     h1{
       text-align:center;
@@ -128,19 +128,19 @@ body{
     }
     .regular h1{
       color:#d50000;
-      font-size: 20px;
+      font-size: 18px;
     }
     .advanced h1{
       color:white;
-      font-size: 20px;
+      font-size: 18px;
     }
     ul, li{
       list-style-type: disc;
-      font-size:12px;
+      font-size:11px;
       line-height:1.8;
     }
     .logo h1{
-    background: linear-gradient( #000000, #000000);
+    background: linear-gradient( #bba605, #000000);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
