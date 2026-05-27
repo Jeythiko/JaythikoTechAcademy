@@ -372,7 +372,6 @@ margin-left: 5px;
   color:black;
   transition: transform 0.2s, box-shadow 0.2s;
   width:360px;
-  margin-left: 38px;
 }
 
 .course-card:hover{
