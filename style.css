@@ -95,7 +95,7 @@ body{
       border-radius:20px;
       overflow: hidden;
       margin: auto;
-      width: 360px;
+      width: 370px;
   
       
   }
@@ -105,6 +105,8 @@ body{
   }
   .courseTitle h2{
     text-align: center;
+    font-size: 18px;
+    padding: 10px;
   }
   .regular{
       width: 35%;
