@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Thep Nyuon Thep</title>
+    </head>
+    <style>
+body{
+  margin:0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #d7e5f3;
+  color:black;
+  transition:0.3s;
+}
+
+/* NAVBAR */
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  background:rgb(9, 4, 40);
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+  top: 0;
+  position:sticky;
+}
+
+/* LOGO */
+
+.logo{
+  margin:0;
+}
+@media (max-width:768px){
+   .container{
+      display:flex;
+      box-shadow:0 0 15px rgba(0, 0, 0, 0.83);
+      border-radius:20px;
+      overflow: hidden;
+      margin: auto;
+      width: 454px;
+   
+  }
+  .course2Content p{
+    font-size: 14px;
+  }
+  .course2Title h2{
+    text-align: center;
+  }
+  .shortcut{
+      width: 50%;
+      background:#f7e4b5;
+      padding:30px;
+    }
+
+    .function{
+      width: 50%;
+      background:#6ce7f5;
+      padding:30px;
+    }
+    h1{
+      text-align:center;
+      margin-bottom:30px;
+      font-size:20px;
+    }
+     ul{
+      list-style-type: disc;
+      line-height:1.8;
+    }
+    .shortcut h1{
+      color:#d50000;
+      font-size: 20px;
+    }
+    .function h1{
+      color:white;
+      font-size: 20px;
+    }
+    ul, li{
+      list-style-type: disc;
+      font-size:12px;
+      line-height:1.8;
+    }
+    .logo{
+    background: linear-gradient( #eae31e, #eee9ee);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateX('50%');
+    font-size: 22px;
+    font-style: bolder;
+    }
+/* DARK MODE */
+.dark{
+  background:#111827;
+  color:white;
+}
+.dark .navbar{
+  background:#0e0e1e;
+}
+.dark .course2Title {
+background: #eee9ee;
+}
+.dark button{
+  background:#dde0e4;
+  color:rgb(0, 0, 0);
+}
+}
+@media (min-width: 1201px) {
+   .course2Title h2{
+    text-align: center;
+    font-size: 35px;
+    }
+    .course2Title{
+    margin-left: 24px;
+    margin-right: 24px;
+     box-shadow:0 2px 10px rgba(0, 0, 0, 0.685);
+    }
+    .course2Content p{
+    font-size: 20px;
+  }
+
+.logo{
+    background: linear-gradient( #eae31e, #eee9ee);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateX('50%');
+    font-size: 30px;
+}
+.course2Container{
+      display:flex;
+      box-shadow:0 0 15px rgba(0, 0, 0, 0.83);
+      border-radius:20px;
+      overflow: hidden;
+      margin: auto;
+      width: 800px;
+  }
+  .shortcut{
+      width: 50%;
+      background:#f7e4b5;
+      padding:10px;
+    }
+
+    .function{
+      width: 50%;
+      background:#4ed0de;
+      padding:10px;
+  
+    }
+    .shortcut h1{
+      color:#d50000;
+      font-size: 24px;
+    }
+    .function h1{
+      color:white;
+      font-size: 24px;
+    }
+    ul, li{
+      list-style-type: disc;
+      font-size:20px;
+      line-height:1.8;
+    }
+/* DARK MODE */
+.dark{
+  background:#111827;
+  color:white;
+}
+.dark .navbar{
+  background:#0e0e1e;
+}
+.dark .course2Title {
+background: #eee9ee;
+}
+.dark button{
+  background:#dde0e4;
+  color:rgb(0, 0, 0);
+}
+}
+
+/* Courses styling */
+.course2Content{
+  padding: 10px;
+  margin-top: 5px;
+}
+    .shortcut{
+      width:50%;
+      background:#930ba2;
+      padding:30px;
+    }
+
+    .function{
+      width:50%;
+      background:#56d612;
+      padding:30px;
+    }
+
+    .shortcut h1{
+      color:#d50000;
+    }
+
+    .function h1{
+      color:rgb(9, 56, 241);
+    }
+
+    ul{
+      list-style-type: disc;
+      font-size:28px;
+      line-height:1.8;
+    }
+
+    li{
+      margin-bottom:10px;
+      font-weight:bold;
+    }
+.course2Title{
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow:0 2px 10px rgba(0, 0, 0, 0.685);
+}
+
+/* DARK MODE */
+
+.dark .course2Title {
+background: #d7e5f3;
+
+}
+.dark .course2Content{
+  color: #111827;
+}
+.course2Title{
+    background: #0da3de;
+    border: #111827;
+    padding: 2px;
+    border-radius: 3px;
+    margin-left: 22px;
+    margin-right: 22px;
+    text-align: center;
+}
+.course2Title h2{
+color: black;
+margin-left: 5px;
+}
+.home{
+    background: #d7e5f3;
+    padding: 5px;
+    border-radius: 2px;
+}
+.home a{
+    text-decoration: none;
+    color:#111827;
+    font-size: 18px;
+}
+    </style>
+    <body>
+   <div class="navbar">
+    <h1 class="logo">Jaythiko Tech Academy</h1>
+    <div class="home"><a href="index.html">Home</a></div>
+ <button id="themeBtn">
+      🌙
+    </button>
+  </div>
+  <br>
+    <div class="course2Title">
+        <h2>Computer helpful shortcuts</h2>
+    </div>
+    <div class="course2Content">
+      <div class="course2Container">
+<div class="shortcut">
+    <h1>Shortcut</h1>
+    <ul>
+      <li>Good</li>
+      <li>Dirty</li>
+      
+    </ul>
+  </div>
+  <div class="function">
+
+    <h1>Function</h1>
+
+    <ul>
+      <li>Fantastic</li>
+      <li>Filthy</li>
+    
+    </ul>
+    </div>
+  </div>
+</div>
+    <script>
+
+        let course2Title = document.querySelector(".course2Title");
+        let course2Content = document.querySelector(".course2Content");
+
+        courseTitle.onclick = function(){
+
+            if(course2Content.style.display === "block"){
+
+                course2Content.style.display = "none";
+
+            } else {
+
+                course2Content.style.display = "block";
+
+            }
+
+        }
+        const themeBtn =
+document.getElementById("themeBtn");
+
+themeBtn.addEventListener("click", () => {
+
+  document.body.classList.toggle("dark");
+
+});
+</script>
+</body>
+</html>
