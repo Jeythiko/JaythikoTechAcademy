@@ -95,7 +95,7 @@ body{
       border-radius:20px;
       overflow: hidden;
       margin: auto;
-      width: 352px;
+      width: 350px;
   
       
   }
@@ -109,14 +109,14 @@ body{
     padding: 10px;
   }
   .regular{
-      width: 35%;
+      width: 30%;
       background:#f7e4b5;
       padding:20px;
     margin: 0;
     }
 
     .advanced{
-      width: 35%;
+      width: 30%;
       background:#6ce7f5;
       padding:20px;
       margin:0;
@@ -140,7 +140,7 @@ body{
     }
     ul, li{
       list-style-type: disc;
-      font-size:10px;
+      font-size:9px;
       line-height:1.8;
     }
     .logo h1{
@@ -151,6 +151,7 @@ body{
     transform: translateX('50%');
     font-size: 20px;
     font-style: bolder;
+      padding: 8px;
 }
 }
 /* ######################################### */
